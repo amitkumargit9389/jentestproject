@@ -51,7 +51,7 @@ services:
       start_period: 60s
     networks:
       - notes-app-nw
-   web:
+  web:
      image: "notes-app:latest"
      ports:
          - "8000:8000"   
